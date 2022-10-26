@@ -41,7 +41,7 @@
         }
         .header-text{
             color: #FFF;
-            font-size: 13px;
+            font-size: 13.5px;
             font-weight: 550;
             margin-bottom: 0.9rem;
             text-align: center;
@@ -49,7 +49,7 @@
 
         .header-subtitle{
             color: #FFF;
-            font-size: 13px;
+            font-size: 13.5px;
             font-weight: 550;
             margin-bottom: 0.9rem;
             text-align: center;
@@ -89,13 +89,10 @@
 
         .colunm{
             background-color: #5D1D68;
-            margin: auto;
             
-            width: 550px;
-
             box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.2);
             border-radius: 10px;
-            background: linear-gradient(#5D1D68, #5D1D68, #2E1133,#2E1133, #2E1133);
+            background: linear-gradient(#762585,  #1e0b22);
             overflow: hidden;
             
         }
@@ -105,6 +102,10 @@
             width: 100%;               
             color: #FFF;
             margin: 8px;
+            border-radius: 10px;
+            border: solid  #2637DA;
+            border-width: 5px;
+            background: linear-gradient(#09238d, #61A8F9);
             padding: center;
             display: flex;
             flex-direction: column;
@@ -119,6 +120,10 @@
             width: 100%;               
             color: #FFF;
             margin: 8px;
+            border-radius: 10px;
+            border-width: 5px;
+            border: solid  #2637DA;
+            background: linear-gradient(#09238d, #61A8F9);
             padding: center;
             display: flex;
             flex-direction: column;
@@ -133,6 +138,10 @@
             width: 100%;               
             color: #FFF;
             margin: 8px;
+            border-radius: 10px;
+            border-width: 5px;
+            border: solid  #2637DA;
+            background: linear-gradient(#09238d, #61A8F9);
             padding: center;
             display: flex;
             flex-direction: column;
@@ -140,6 +149,31 @@
             align-content: space-around;
             font-size: 13px;
             font-weight: 550;
+        }
+
+        .image-group{
+            text-align: center;
+        }
+
+        button:hover{
+            background-color: #5D1D68;
+        }
+
+        button{
+            margin-top: 1.1rem;
+
+            width: 60%;
+            padding: 0.9rem;
+            margin: auto;
+            
+            color: #fff;
+            background-color: #000000;
+            font-size: 1.3rem;
+            font-weight: 550;
+    
+            border-radius: 5px;
+            border: none;
+            cursor:  pointer;
         }
 
     </style>
@@ -171,29 +205,37 @@
                     
                     
                         <div class="flex-container">
+
                         <div class="col1">
                             <div class="data-title">
                                 Esportes
-                            
+                                <div class="image-group">
+                                    <object data="sports_soccer_white.svg" type="image/svg+xml"></object>
+                                </div>   
+                                <button>Votar</button> 
                             </div>
                         </div>
 
                         <div class="col2">
                             <div class="data-title">
-                                Simulação
-                            
+                                Simulação 
+                            <div class="image-group">
+                                <object data="local_airport_white.svg" type="image/svg+xml"></object>
+                            </div>
+                            <button>Votar</button>  
                             </div>
                         </div>
 
                         <div class="col3">
                             <div class="data-title">
                                 Estratégia
-                            
+                                <div class="image-group">
+                                    <object data="psychology_white.svg" type="image/svg+xml"></object>
+                                </div> 
+                                <button>Votar</button>                               
                             </div>
                         </div>
-                    </div>
-                        
-                
+                    </div>  
         </div>
         <div>
             <span style="color: #fff"> <br>@Desenvolvido por GameTechLover<br><br></span>
