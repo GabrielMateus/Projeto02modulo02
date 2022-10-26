@@ -13,14 +13,15 @@
         }
 
         input{
-            width: 80%;
+            width: 70%;
             height: 10px;
             padding: 0.8rem;
             font-size: 0.9rem;
             border-radius: 5px;
             border: 0;
             margin: 10px;
-            margin-left: 40px;
+            margin-left: 12%;
+                       
         }
 
         input:focus{
@@ -59,6 +60,7 @@
             background-color: #2E1133;
             
             margin: auto;
+            margin-top: 5px;
 
             width: 600px;
 
@@ -89,7 +91,8 @@
 
         .colunm{
             background-color: #5D1D68;
-            
+            margin: auto;
+                        
             box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.2);
             border-radius: 10px;
             background: linear-gradient(#762585,  #1e0b22);
@@ -174,6 +177,30 @@
             border-radius: 5px;
             border: none;
             cursor:  pointer;
+        }
+
+        @media screen and (max-width: 620px){
+             html{
+                font-size: 14px;
+             }           
+
+             .flex-container{
+                flex-direction: column;
+             }
+
+             .col1, .col2, .col3{
+                width: 95%;
+                box-sizing: border-box;
+             }
+             
+             .container{
+                width: 95%;
+             }
+
+             .header{
+                padding: 15px;
+             }
+
         }
 
     </style>
